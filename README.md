@@ -16,14 +16,10 @@ Copy and paste "http://localhost:8888/?token=07c(see output from above command)"
 
 All Jupyter notebooks are saved in notebooks folder. Play around with demo1 and demo2
 
-
-
-Enjoy
-Anandha
-
-
 Additional Reading
  - Docker   - https://www.docker.com
  - Anaconda - https://www.continuum.io/Anaconda-Overview
  - Jupyter  - https://jupyter.org
  - Sklearn  - http://scikit-learn.org
+
+Enjoy, Anandha
