@@ -1,10 +1,13 @@
 # A very simple Docker image to bootstrap learning in data science and machine learning
 
-To get going
+To get going download repo
 
-1. Download repo
-2. ./build_image will build your docker image
-3. ./jupyter will run headless juypter notebook. Copy and past the http://localhost:8888/?token=07cxxxx to your browser
-4. All notebooks are saved in notebooks folder
+Run "./build_image" to build your docker image
+
+Run "./jupyter" to run headless juypter notebook
+
+Copy and paste http://localhost:8888/?token=07c(see output from above command) to your browser
+
+All notebooks are saved in notebooks folder
 
 Enjoy
