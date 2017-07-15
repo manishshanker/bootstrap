@@ -9,8 +9,7 @@
 5. Run "./build_image" to build your docker image
 6. Run "./jupyter" to run headless juypter notebook
 7. Copy and paste "http://localhost:8888/?token=07c(see output from above command)" to your browser
-
-All Jupyter notebooks are saved in notebooks folder. Play around with demo1 and demo2
+8. All Jupyter notebooks are saved in notebooks folder. Play around with demo1 and demo2.
 
 Additional Reading
 * Docker   - https://www.docker.com
