@@ -2,25 +2,21 @@
 
 ## Instructions
 
-Install Docker (I have a mac)
-
-Download this repo (I use https://desktop.github.com)
-
-Navigate to the directory with the files
-
-Run "./build_image" to build your docker image
-
-Run "./jupyter" to run headless juypter notebook
-
-Copy and paste "http://localhost:8888/?token=07c(see output from above command)" to your browser
+1. Install Docker (I have a mac)
+2. Run "docker run hello-world" to see if Docker has been installed properly
+3. Download this repo (I use https://desktop.github.com)
+4. Navigate to the directory with the files
+5. Run "./build_image" to build your docker image
+6. Run "./jupyter" to run headless juypter notebook
+7. Copy and paste "http://localhost:8888/?token=07c(see output from above command)" to your browser
 
 All Jupyter notebooks are saved in notebooks folder. Play around with demo1 and demo2
 
 Additional Reading
- - Docker   - https://www.docker.com
- - Anaconda - https://www.continuum.io/Anaconda-Overview
- - Jupyter  - https://jupyter.org
- - Sklearn  - http://scikit-learn.org
+* Docker   - https://www.docker.com
+* Anaconda - https://www.continuum.io/Anaconda-Overview
+* Jupyter  - https://jupyter.org
+* Sklearn  - http://scikit-learn.org
 
 Enjoy, Anandha
 
@@ -29,6 +25,33 @@ Enjoy, Anandha
 ## Raw Capture
 
 ```
+iMac-2016:bootstrap anandha$ docker run hello-world
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+b04784fba78d: Pull complete 
+Digest: sha256:f3b3b28a45160805bb16542c9531888519430e9e6d6ffc09d72261b0d26ff74f
+Status: Downloaded newer image for hello-world:latest
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://cloud.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/engine/userguide/
+
 iMac-2016:bootstrap anandha$ ./build_image 
 Sending build context to Docker daemon  142.3kB
 Step 1/5 : FROM continuumio/anaconda3
@@ -47,6 +70,7 @@ Step 5/5 : CMD /bin/bash
  ---> ce227b24dcfc
 Successfully built ce227b24dcfc
 Successfully tagged myapp:latest
+
 iMac-2016:bootstrap anandha$ ./jupyter 
 [I 21:15:22.510 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
 [W 21:15:22.524 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
