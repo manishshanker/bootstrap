@@ -1,6 +1,6 @@
 # A very simple Docker image to bootstrap learning in data science and machine learning
 
-Instructions
+## Instructions
 
 Install Docker (I have a mac)
 
