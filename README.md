@@ -51,6 +51,15 @@ Share images, automate workflows, and more with a free Docker ID:
 For more examples and ideas, visit:
  https://docs.docker.com/engine/userguide/
 
+iMac-2016:x anandha$ git clone https://github.com/anandha2017/bootstrap.git
+Cloning into 'bootstrap'...
+remote: Counting objects: 57, done.
+remote: Compressing objects: 100% (51/51), done.
+remote: Total 57 (delta 29), reused 14 (delta 3), pack-reused 0
+Unpacking objects: 100% (57/57), done.
+
+iMac-2016:x anandha$ cd bootstrap
+
 iMac-2016:bootstrap anandha$ ./build_image 
 Sending build context to Docker daemon  142.3kB
 Step 1/5 : FROM continuumio/anaconda3
