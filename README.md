@@ -12,10 +12,13 @@
 8. All Jupyter notebooks are saved in notebooks folder. Play around with demo1 and demo2.
 
 Additional Reading
-* Docker   - https://www.docker.com
-* Anaconda - https://www.continuum.io/Anaconda-Overview
-* Jupyter  - https://jupyter.org
-* Sklearn  - http://scikit-learn.org
+| Topic | Site | 
+| ----------------- | ------------ |
+| Docker | https://www.docker.com |
+| Anaconda | https://www.continuum.io/Anaconda-Overview |
+| Jupyter | https://jupyter.org |
+| Sklearn | http://scikit-learn.org |
+| Docker & Anaconda | https://www.continuum.io/blog/developer-blog/anaconda-and-docker-better-together-reproducible-data-science |
 
 Enjoy, Anandha
 
