@@ -1,4 +1,4 @@
-# A very simple Docker image to bootstrap learning in data science and machine learning
+# A simple Docker image to bootstrap learning in data science and machine learning
 
 ## Instructions
 
