@@ -5,7 +5,7 @@
 1. Install Docker (I have a mac)
 2. Run ```docker run hello-world``` to see if Docker has been installed properly
 3. Install [GitHub](https://desktop.github.com/)
-4. Download this repo ```git clone https://github.com/anandha2017/bootstrap.git"```
+4. Download this repo ```git clone https://github.com/anandha2017/bootstrap.git```
 5. Navigate to the directory with the files
 6. Run ```./build_image``` to build your docker image
 7. Run ```./jupyter``` to run headless juypter notebook
