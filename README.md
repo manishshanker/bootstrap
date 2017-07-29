@@ -2,7 +2,7 @@
 
 ## Instructions
 
-1. Install Docker (I have a mac)
+1. Install [Docker](https://www.docker.com/community-edition) (I have a mac)
 2. Run ```docker run hello-world``` to see if Docker has been installed properly
 3. Install [GitHub](https://desktop.github.com/)
 4. Download this repo ```git clone https://github.com/anandha2017/bootstrap.git```
