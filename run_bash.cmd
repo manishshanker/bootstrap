@@ -1,1 +1,1 @@
-docker run -it  -v ./notebooks:/opt/notebooks myapp /bin/bash
+docker run -it  -v %cd%/notebooks:/opt/notebooks myapp /bin/bash
